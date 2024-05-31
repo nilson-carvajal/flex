@@ -1,0 +1,111 @@
+.contenedor{
+  display: grid;
+  justify-content: center;
+}
+.grid-container {
+  width: 63vw;
+  height: auto;
+  display: grid;
+  background-color: black;
+  column-gap: 1vw;
+  row-gap: 1vw;
+  justify-content: center;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  border-radius: 1vw;
+  
+}
+
+.uno {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.video-1 {
+  border-radius: 2vw;
+  width: 30vw;
+  height: auto;
+}
+
+.dos {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  
+}
+
+.video-2 {
+  border-radius: 2vw;
+  width: 30vw;
+  height: auto;
+}
+
+.tres {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  }
+
+  .textoimg {
+      border-radius: 1vw;  
+      width: 30vw;
+      height: auto;
+  }
+
+  .cuatro {
+      grid-column-start: 1;
+      grid-column-end: 3;
+  }
+
+.fotos {
+  border-radius: 2vw;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: 61vw;
+  height: auto;
+  
+}
+.grid-container-2{
+  width: 63vw;
+  height: auto;
+  display: grid;
+  background-color: black;
+  column-gap: 1vw;
+  row-gap: 1vw;
+  justify-content: center;
+  padding-bottom: 2vw;
+  padding-top: 2vw;
+  border-radius: 2vw;
+}
+.cinco{
+
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.imagen1C2{
+  border-radius: 2vw;
+  width: 30vw;
+  height: 20vw;
+}
+.seis{
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.imagen2C2{
+  border-radius: 2vw;
+  width: 30vw;
+  height: 20vw;
+
+}
+.siete{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.imagen3C2{
+  border-radius: 1vw;  
+  width: 30vw;
+  height: 41vw;
+}
